@@ -1,0 +1,177 @@
+
+
+
+/*Navigation Bar*/
+
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 150px;
+    background-color: #4aaaa5;
+    height: 80px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+	font-weight: 700;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+nav a{
+	color: #999;
+	text-decoration: none;
+	margin-left: 15px;
+	display: inline-block;
+	border-left: 1px solid #efefef;
+	padding-left: 15px;
+	line-height: 45px;
+
+
+}
+
+
+
+
+/*Body*/
+
+
+body{
+	background-image: url("../images/triangular.png");
+	background-repeat: 20px;
+	font-size: 18px;
+	line-height: 34px;
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	color: #777;
+	}
+
+h1, h2, h3{
+font-family: 'Georgia', Times, TImes New Roman, serif;
+font-weight: 700;
+color: #4aaaa5;
+}
+
+
+h2, h3{
+font-size: 15px;
+text-align: center;
+}
+
+div.col-sm-8{
+	padding: 20px;
+
+}
+
+div.col-sm-4{
+	width: 300px;
+
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+background-color: #fff;
+}
+
+
+div.panel-heading{
+	text-align: center;
+}
+
+img.thumbnail{
+	margin: 0;
+
+
+}
+
+div.col-sm-9{
+	padding:0;
+}
+
+/*Portfolio*/
+
+a.thumbnail{
+	
+	overflow: auto;
+	position: relative;
+	margin: 20px 10px 20px 20px ;
+	padding: 10px;
+	
+	
+}
+h3{
+	border-bottom: 0;
+	background: #4aaaa5;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	bottom: 80px;
+	padding: 15px;
+	width: 100%;
+	line-height: 15px;
+	margin-bottom: 0;
+	font-weight: 300;
+	clear: both;
+}
+
+
+
+
+
+	
+
+
+
+/*Footer*/
+
+.navbar-fixed-bottom {
+    bottom: 0;
+    margin-bottom: 0;
+    border-top: solid 5px #4aaaa5;
+    background: #666;
+    height: 50px;
+    text-align: center;
+    color: #ccc;
+    clear: both;
+}
+
+
+/*===================================================================================================*/
+/*---------------Media Queries-----------------------*/
+
+/*======================================================================================================*/
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 100px;
+    background-color: #4aaaa5;
+    height: 60px;
+    width: 175px;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+	font-weight: 700;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
